@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MiAplicacion</string>
+
+    <!-- Definición de los géneros de libros -->
+    <string-array name="genres">
+        <item>Ficción</item>
+        <item>No ficción</item>
+        <item>Ciencia ficción</item>
+        <item>Biografía</item>
+        <item>Historia</item>
+        <!-- Puedes agregar más géneros según sea necesario -->
+    </string-array>
+</resources>

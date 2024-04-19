@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E61515"
+    android:backgroundTint="#5200E3"
+    android:foregroundTint="#2196F3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8000000"
+        android:backgroundTint="#000000"
+        android:foregroundTint="#FFFFFF"
+        android:foregroundTintMode="add"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFCFC"
+            android:backgroundTint="#FF0606"
+            android:drawableTint="#FFFFFF"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="PORRTALIBRO'S"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/aclonica"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
+        <EditText
+            android:id="@+id/contrasena"
+            android:layout_width="379dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/aclonica"
+
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="end"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/iniciar_sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/aclonica"
+            android:onClick="irASecondActivity"
+            android:text="Iniciar sesión"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#fff"
+            android:textColorLink="#03A9F4"
+            android:textSize="16sp"
+            app:iconTint="#3F51B5"
+            app:iconTintMode="add" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="210dp"
+            android:layout_height="178dp"
+            app:srcCompat="@drawable/whatsapp_image_2024_04_18_at_2_05_33_pm" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
